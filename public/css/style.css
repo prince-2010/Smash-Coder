@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/bg2.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login-page{
+    width:360px;
+    padding:10% 0 0;
+    margin: auto;
+
+}
+ 
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(54, 149, 187, 0.8);
+    max-width: 360 px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input{
+     font-family: "Roboto", sans-serif;
+     outline: 1;
+     background: rgb(203, 203, 240);
+     width: 100%;
+     border: 0;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+     font-size: 14px;
+}
+.form button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(117, 155, 228);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:darkblue;
+    font-size: 14px;
+    cursor:pointer;
+}
+.form button:hover{
+    background-color:rgb(103, 182, 103);
+}
+.form .message{
+    margin: 10px;
+    color:rgb(203, 203, 240);
+    padding: 5px;
+}
+.form .message a{
+    color: rgb(99, 38, 211);
+    padding:9px;
+    text-decoration: none;
+}
+.form .registration-form{
+    display: none;
+}
