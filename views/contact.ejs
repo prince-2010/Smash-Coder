@@ -1,0 +1,26 @@
+<% layout('layouts/boiler')%>
+
+
+    <div class="container">
+        <!-- Heading -->
+        <h2>Contact Us</h2>
+        <!-- Form for entering details -->
+        <form action="/query" method="POST">
+            <div class="form-group">
+                <!-- For Email -->
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            
+            <div class="form-group">
+                <!-- For entering details of the querry -->
+              <label for="exampleFormControlTextarea1">Elabourate your concern</label>
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        <!-- End of Form -->
+    </div>
+    <br><br><br>
+  

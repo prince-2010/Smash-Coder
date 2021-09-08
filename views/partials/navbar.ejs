@@ -1,0 +1,70 @@
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">SM</a>
+            <!-- Logo as button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation attributes -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- Home Page-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href='/'>Home</a>
+                    </li>
+                    <!-- About Page-->
+                    <li class="nav-item">
+                        <a class="nav-link" href='/about'>About</a>
+                    </li>
+                    <!-- Topics Page-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs Topics
+                        </a>
+                        <!-- Topic contains some options -->
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="https://www.tutorialspoint.com/android/index.htm" target="blank">Android</a></li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/whatis/" target="blank"  >Wev Development</a></li>
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/cpp/"  target="blank" >C++</a></li>
+                            <li><a class="dropdown-item" href="https://www.javatpoint.com/java-tutorial" target="blank" >Java</a></li>  
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/python/" target="blank" >Pyhton</a></li>
+                            <li><a class="dropdown-item" href="https://www.javatpoint.com/robotics-tutorial" target="blank" >Robotics</a></li>
+                            <li><a class="dropdown-item" href="https://www.javatpoint.com/artificial-intelligence-tutorial" target="blank" >AI</a></li>
+                            <li><a class="dropdown-item" href="https://www.tutorialspoint.com/machine_learning_with_python/index.htm" target="blank" >ML</a></li>
+                            <li><a class="dropdown-item" href="https://www.javatpoint.com/dbms-tutorial" target="blank" >DBMS</a></li>
+                            <li><a class="dropdown-item" href="https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/" target="blank" >Compatative Programming</a></li>
+
+                        </ul>
+                    </li>
+                    <!-- Contact Us Page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href='/contact'>Contact Us</a>
+                    </li>
+                </ul>
+                <!-- A search bar -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- Two Buttons for logout & for opening profile -->
+                
+                <div class="mx-2">
+                     <!-- Logout Button -->
+                    <form action="/logout" method="POST">
+                        <button type="submit" class="btn btn-danger" data-toggle="modal"
+                            data-target="#signupModal">LogOut</button>
+                    </form>
+                    <!-- Profile Button -->
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation Bar -->
